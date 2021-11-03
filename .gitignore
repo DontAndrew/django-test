@@ -1,0 +1,16 @@
+
+#venv
+.env
+/env
+*env
+env*
+
+# django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+#python
+__pypackages__/
+__pycache__/
