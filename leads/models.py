@@ -13,7 +13,7 @@ class Lead(models.Model):
     agent = models.ForeignKey("Agent", on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"Lead: {self.first_name}, {self.last_name} {self.agent}"
+        return f"{self.first_name}"
 
 
 class Agent(models.Model):
